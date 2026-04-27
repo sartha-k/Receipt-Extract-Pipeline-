@@ -1,0 +1,14 @@
+{
+    "store_name": {
+        "value": "Segi Cash",
+        "confidence": 0.7632179805629906
+    },
+    "date": {
+        "value": null,
+        "confidence": 0
+    },
+    "total_amount": {
+        "value": "234.63",
+        "confidence": 0.940244795521758
+    }
+}

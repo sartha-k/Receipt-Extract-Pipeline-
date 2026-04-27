@@ -1,0 +1,14 @@
+{
+    "store_name": {
+        "value": "Tax)nvoice",
+        "confidence": 0.23250896318023428
+    },
+    "date": {
+        "value": "48/02/2018",
+        "confidence": 0.6265128121830996
+    },
+    "total_amount": {
+        "value": "346.51",
+        "confidence": 0.28541961808267147
+    }
+}

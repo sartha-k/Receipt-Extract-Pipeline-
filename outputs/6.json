@@ -1,0 +1,14 @@
+{
+    "store_name": {
+        "value": "MOMI",
+        "confidence": 0.6744229197502136
+    },
+    "date": {
+        "value": "26/01/2015",
+        "confidence": 0.9770552876071009
+    },
+    "total_amount": {
+        "value": null,
+        "confidence": 0
+    }
+}

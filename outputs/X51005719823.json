@@ -1,0 +1,14 @@
+{
+    "store_name": {
+        "value": "SIMPLIFIED TAX INVOICE",
+        "confidence": 0.8671796999166616
+    },
+    "date": {
+        "value": "29/01/2018",
+        "confidence": 0.6681969427764547
+    },
+    "total_amount": {
+        "value": "20.94",
+        "confidence": 0.626218502302478
+    }
+}

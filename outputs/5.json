@@ -1,0 +1,14 @@
+{
+    "store_name": {
+        "value": "WHOLE FOODS",
+        "confidence": 0.9817535998320085
+    },
+    "date": {
+        "value": "9/15/2020",
+        "confidence": 0.5057649883849614
+    },
+    "total_amount": {
+        "value": "828.28",
+        "confidence": 0.9811194884255698
+    }
+}

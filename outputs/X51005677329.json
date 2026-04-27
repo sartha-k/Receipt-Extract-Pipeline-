@@ -1,0 +1,14 @@
+{
+    "store_name": {
+        "value": "1y",
+        "confidence": 0.011864861226045586
+    },
+    "date": {
+        "value": "12/02/2018",
+        "confidence": 0.6957221215559591
+    },
+    "total_amount": {
+        "value": "270.3",
+        "confidence": 0.9993150146641843
+    }
+}

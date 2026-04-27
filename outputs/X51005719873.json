@@ -1,0 +1,14 @@
+{
+    "store_name": {
+        "value": "Your order number is",
+        "confidence": 0.9814199604665064
+    },
+    "date": {
+        "value": "21/01/2018",
+        "confidence": 0.7996129597548232
+    },
+    "total_amount": {
+        "value": "15.46",
+        "confidence": 0.7784915642796653
+    }
+}

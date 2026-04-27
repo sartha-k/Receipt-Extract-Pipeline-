@@ -1,0 +1,14 @@
+{
+    "store_name": {
+        "value": "CARREFOUR RESTAURANT",
+        "confidence": 0.9203906999796162
+    },
+    "date": {
+        "value": null,
+        "confidence": 0
+    },
+    "total_amount": {
+        "value": "13.0",
+        "confidence": 0.818505930727259
+    }
+}

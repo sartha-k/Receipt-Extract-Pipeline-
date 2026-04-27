@@ -1,0 +1,14 @@
+{
+    "store_name": {
+        "value": "REST AURANT",
+        "confidence": 0.4397478516021423
+    },
+    "date": {
+        "value": null,
+        "confidence": 0
+    },
+    "total_amount": {
+        "value": null,
+        "confidence": 0
+    }
+}

@@ -1,0 +1,24 @@
+Technical Documentation: Receipt OCR Pipeline
+Applicant: Sarthak
+Role: ML Intern Assignment
+Date: April 26, 2026
+
+1. **Approach & Methodology**
+The objective was to develop an automated pipeline to extract structured data from diverse receipt images. The solution implements a modular architecture:
+Preprocessing (Task 3a): Utilised OpenCV for Adaptive Gaussian Thresholding. This specifically addresses Task 3.a.iii (lighting inconsistencies) by normalizing brightness across the image. Deskewing logic was added to ensure text alignment.
+OCR Engine (Task 3b): Implemented EasyOCR due to its robust performance on "real-world noise" and non-standard fonts compared to traditional engines like Tesseract.
+Extraction (Task 3c): Combined Regex for date patterns with a contextual search for the "Total" amount. A fallback algorithm identifies the maximum decimal value as the "Total" if keywords are missing.
+
+2. **Confidence Scoring & Reliability**
+To satisfy the 20% weightage for reliability:
+Field-Level Confidence: Each extracted field (Store, Date, Total) includes a probability score (0.0 - 1.0) derived directly from the OCR engine’s confidence levels.
+Validation: Fields with confidence below 0.5 are flagged in the pipeline for manual review, ensuring high data integrity.
+
+3. **Financial Summary Generation**
+The main_processor.py script aggregates data from all processed JSONs to calculate:
+Total Expenditure: Sum of all identified totals.
+Average Spend: Total expenditure divided by the number of successful receipts.
+
+4. **Challenges & Edge Cases**
+Shadows/Blur: Handled via adaptive thresholding and bilateral filtering.
+Missing Keywords: Solved using a "Largest Price" heuristic to find the total amount even on crumpled or cut-off receipts.

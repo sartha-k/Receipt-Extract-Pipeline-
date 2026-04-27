@@ -1,0 +1,14 @@
+{
+    "store_name": {
+        "value": "your JD",
+        "confidence": 0.3307719167201239
+    },
+    "date": {
+        "value": "10/31/21",
+        "confidence": 0.8351080745874624
+    },
+    "total_amount": {
+        "value": "4853.79",
+        "confidence": 0.07692651517250101
+    }
+}

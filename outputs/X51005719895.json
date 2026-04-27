@@ -1,0 +1,14 @@
+{
+    "store_name": {
+        "value": "GREEN LANE PHARMACY  SDN  BHD",
+        "confidence": 0.33606146817304383
+    },
+    "date": {
+        "value": null,
+        "confidence": 0
+    },
+    "total_amount": {
+        "value": "34.8",
+        "confidence": 0.6649440223736081
+    }
+}

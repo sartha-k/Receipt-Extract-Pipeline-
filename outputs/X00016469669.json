@@ -1,0 +1,14 @@
+{
+    "store_name": {
+        "value": "tan",
+        "confidence": 0.999998279362313
+    },
+    "date": {
+        "value": "09/01/2012",
+        "confidence": 0.3531429432884444
+    },
+    "total_amount": {
+        "value": "75.5",
+        "confidence": 0.34189073532205494
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "store_name": {
+        "value": "THREE",
+        "confidence": 0.9982752872958379
+    },
+    "date": {
+        "value": "03/03/2018",
+        "confidence": 0.6532497173587991
+    },
+    "total_amount": {
+        "value": null,
+        "confidence": 0
+    }
+}

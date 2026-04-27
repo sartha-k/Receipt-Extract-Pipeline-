@@ -1,0 +1,14 @@
+{
+    "store_name": {
+        "value": "Walmart",
+        "confidence": 0.99945909001703
+    },
+    "date": {
+        "value": "12/08/15",
+        "confidence": 0.8546406643236515
+    },
+    "total_amount": {
+        "value": "71.93",
+        "confidence": 0.14599987191427438
+    }
+}

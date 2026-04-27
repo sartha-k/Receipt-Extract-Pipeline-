@@ -1,0 +1,14 @@
+{
+    "store_name": {
+        "value": "WAL+MART",
+        "confidence": 0.7310382222222794
+    },
+    "date": {
+        "value": null,
+        "confidence": 0
+    },
+    "total_amount": {
+        "value": "13.83",
+        "confidence": 0.3874867528341445
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "store_name": {
+        "value": "MY HAPPY PHARMACY PLT",
+        "confidence": 0.9348993293079758
+    },
+    "date": {
+        "value": "01/02/2018",
+        "confidence": 0.9999684093832433
+    },
+    "total_amount": {
+        "value": "20.5",
+        "confidence": 0.6748400707257634
+    }
+}

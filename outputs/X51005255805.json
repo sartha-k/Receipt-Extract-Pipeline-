@@ -1,0 +1,14 @@
+{
+    "store_name": {
+        "value": "Sam",
+        "confidence": 0.4700321614610065
+    },
+    "date": {
+        "value": "29-12-2017",
+        "confidence": 0.07182930431425913
+    },
+    "total_amount": {
+        "value": "257.63",
+        "confidence": 0.16619890664321835
+    }
+}
