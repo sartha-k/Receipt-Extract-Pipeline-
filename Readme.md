@@ -1,28 +1,69 @@
-**Carbon Crunch Assignment**
+# Receipt Extract Pipeline 🧾
 
-**Approach**
-1: Preprocessing: Used OpenCV for adaptive thresholding and noise reduction to handle real-world lighting issues
-2: OCR: Implemented EasyOCR for deep-learning-based text recognition
-3: Extraction: Used Regex and fallback logic (largest price detection) to ensure data capture even with messy receipts
+A computer vision pipeline that extracts structured data from real-world receipt images.It handles messy, low-quality scans using adaptive preprocessing and deep-learning OCR.
 
-**Tools Used**
-1: Python
-2: OpenCV (Image processing)
-3: EasyOCR (Deep Learning OCR)
-4: Regex (Data cleaning)
+---
 
-**Challenges**
-1: Lighting/Shadows: Solved with Adaptive Thresholding
-2: Noise/Faded Ink: Solved with Denoising and EasyOCR's robust model
-3: Missing Totals: Solved with a "Largest Price" fallback logic
+## Approach
 
-**Improvements**
-1: Suggesting a Large Language Model (LLM) like GPT-4o for better semantic understanding of itemized lists.
-2: Adding a Web Dashboard for users to manually correct low-confidence flags
-3: In a production environment, I would implement CUDA-enabled GPU acceleration or use multiprocessing to reduce the processing time from ~60 minutes to under 10 minutes.
-4: The final pipeline successfully filtered out numerical noise (IDs/Barcodes) by implementing a $5,000 threshold, resulting in a clean dataset with an average transaction value of $145.83
+1. **Preprocessing** — OpenCV adaptive thresholding and noise reduction to handle real-world lighting and shadow issues
+2. **OCR** — EasyOCR for deep-learning-based text recognition robust to faded or distorted text
+3. **Extraction** — Regex with a "largest price" fallback to ensure data capture even on messy receipts
 
-**How to Run**
-1: Install all dependencies used in the code(matplotlib, opencv, easyocr)
-2: Place images in the imgs folder
-3: Run python main_processor.py to run all receipt
+---
+
+## Tools Used
+
+| Tool | Purpose |
+|---|---|
+| Python | Core language |
+| OpenCV | Image preprocessing |
+| EasyOCR | Deep learning OCR |
+| Regex | Data cleaning and extraction |
+
+---
+
+## Challenges & Solutions
+
+| Challenge | Solution |
+|---|---|
+| Lighting & shadows | Adaptive thresholding |
+| Noise / faded ink | Denoising + EasyOCR's robust model |
+| Missing totals | "Largest price" fallback logic |
+
+---
+
+## Results
+
+- Filtered out numerical noise (IDs, barcodes) using a `$5,000` threshold
+- Produced a clean dataset with an **average transaction value of $145.83**
+
+---
+
+## Suggested Improvements
+
+- **LLM integration** — GPT-4o for semantic understanding of itemized lists
+- **Web dashboard** — Allow users to manually correct low-confidence extractions
+- **GPU acceleration** — CUDA or multiprocessing to reduce batch processing time from ~60 min to under 10 min
+
+---
+
+## How to Run
+
+### 1. Install dependencies
+
+```bash
+pip install matplotlib opencv-python easyocr
+```
+
+### 2. Add receipt images
+
+Place all `.jpg` / `.png` receipt images inside the `imgs/` folder.
+
+### 3. Run the pipeline
+
+```bash
+python main_processor.py
+```
+
+This will process all receipts in the `imgs/` folder and output extracted data.
